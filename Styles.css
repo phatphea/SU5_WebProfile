@@ -54,7 +54,7 @@ a {
   max-width: 50%;
 }
 
-.avatar img {
+#profile .avatar img {
   height: 97%;
   width: 65%;
   border-radius: 50%;
@@ -135,4 +135,78 @@ a {
 
 .social-media .tiktok:hover {
   color: rgb(94, 76, 76);
+}
+
+#about {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+#about .information {
+  flex-grow: 1;
+  max-width: 50%;
+}
+#about .avatar {
+  flex-grow: 1;
+  max-width: 50%;
+}
+
+#about .avatar img {
+  width: 70%;
+}
+
+#about h3 {
+  font-size: 1.7rem;
+  margin-bottom: 50px;
+}
+
+#about p .text-university,
+#about p .text-major {
+  background-color: yellow;
+  font-size: 13px;
+  padding: 2px 7px;
+}
+
+#about p .text-major {
+  background-color: pink;
+}
+
+#about .skill {
+  display: flex;
+  font-size: 0;
+}
+
+#about .skill .btn-group {
+  margin: 20px 20px 0 0;
+}
+
+#about .skill .btn-group button {
+  padding: 5px 10px;
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+#about .skill .btn-group button:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+#about .skill .btn-group button:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.set-pink {
+  background-color: pink !important;
+}
+
+.set-green {
+  background-color: green !important;
+  color: white;
+}
+
+#footer div {
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
