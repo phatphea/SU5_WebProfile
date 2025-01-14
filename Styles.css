@@ -17,6 +17,10 @@ a {
 .container {
   max-width: 1300px;
   margin: auto;
+  /* background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+  margin-top: 2px; */
 }
 .navbar {
   display: flex;
